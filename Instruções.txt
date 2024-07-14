@@ -1,0 +1,6 @@
+Instruções de uso do programa Calcular idade
+
+1- Abra o programa "Calcular idade.py" com o interpretador do Python;
+OBS: Caso você não tenha o IDLE (interpretador do Python), baixe-o no site https://www.python.org
+
+2- Digite as informações solicitadas e aperte ENTER.
