@@ -10,10 +10,14 @@ dia_nascimento = int(input('Digite o dia do seu nascimento: '))
 mes_nascimento = int(input('Digite o mês do seu nascimento: '))
 ano_nascimento = int(input('Digite o ano do seu nascimento: '))
 
-idade = datas[2] - ano_nascimento
-if datas[1] <= mes_nascimento:
-	if datas[0] < dia_nascimento:
-		idade -= 1
+dia_atual = datas[0]
+mes_atual = datas[1]
+ano_atual = datas[2]
+
+idade = ano_atual - ano_nascimento
+
+if mes_atual < mes_nascimento or mes_atual == mes_nascimento and dia_atual < dia_nascimento:
+	idade -= 1
 
 print(f'\nHoje é dia {data_formatada}.')
 print(f'Você tem {idade} anos de idade.')
