@@ -2,7 +2,6 @@ from datetime import datetime
 
 data_atual = datetime.now()
 data_formatada = data_atual.strftime("%d/%m/%Y")
-
 dia_mes_ano = data_formatada.split('/')
 datas = list(map(lambda x: int(x), dia_mes_ano))
 
